@@ -1,17 +1,14 @@
-/*------ Seguidor de Lineas Basico ----- */
-/*------ Definamos lo pines de arduino que vamos a utilizar -----*/
+//PINES DE CONEXIÓN
 #define sensor_izquierdo 2  // sensor izquierdo
 #define sensor_derecho 3    // sensor derecho
 #define motor_izquierdo_1 5 // motor izquierdo
 #define motor_izquierdo_2 4 // motor izquierdo
 #define motor_derecho_1 7   // motor derecho
 #define motor_derecho_2 6   // motor derecho
-
-/*variables internas*/
+//VARIABLES DE USO INTERNO
 int sensor_izquierdo_estado;
 int sensor_derecho_estado;
-
-/*------ Configuramos Ardunio segun nuestro esquema -----*/
+//CONFIGURAMOS ARDUNIO
 void setup()
 {
   pinMode(sensor_izquierdo, INPUT);
@@ -25,7 +22,7 @@ void setup()
   delay(3000);
   Serial.println("Configuración completa");
 }
-/*------ Ponemos a correr el programa que controla el seguidor de lineas -----*/
+//PROGRAMA DEL SEGUIDOR DE LINEAS
 void loop()
 {
   sensor_izquierdo_estado = !digitalRead(sensor_izquierdo);
