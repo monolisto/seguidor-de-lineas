@@ -9,9 +9,13 @@ El proyecto incluye código fuente para distintos niveles de complejidad.
 ## Seguidor de Lineas Autónomo - Básico
 Es el código mas simple que permite controlar dos motores independientes, tomando la lectura de dos sensores infrarrojos.
 Esta versión tiene muchas limitaciones, *pero* tiene como objetivo que el usuario se familiarice con el hardware, el entorno de desarrollo y el lenguaje de programación.
-
+### Sensores utilizados:
+1 - 
 ## Seguidor de Lineas Autónomo - Avanzado
 Esta versión ofrece una mayor robustes en el control de desplazamiento, la aceleración y las herramientas de control.
-
+### Sensores utilizados:
+1 - 
 ## Seguidor de Lineas Autónomo - Bluetooth
 Esta versión le suma a la anterior, la capacidad de interacción en forma remota desde un móvil, por medio del protocolo Bluetooth.
+### Sensores utilizados:
+1 - 
