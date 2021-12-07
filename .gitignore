@@ -1,5 +1,5 @@
 # Windows system files
-desktop.ini
+*.ini
 
 # Prerequisites
 *.d
